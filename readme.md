@@ -19,3 +19,15 @@ Todo el flujo de trabajo, desde la carga de datos hasta el informe final, está 
 * Modelado Predictivo: Creación, entrenamiento y evaluación de dos modelos (Regresión Logística y Random Forest).
 * Interpretación y Conclusiones: Análisis de la importancia de las variables según cada modelo.
 * Informe Ejecutivo: Resumen de hallazgos y propuestas de estrategias de retención accionables.
+
+## 📈 Principales Resultados
+* Identificación de Factores Clave: Se determinó que las variables más influyentes en la predicción del churn son el tipo de contrato (siendo "mes a mes" el de mayor riesgo), la antigüedad del cliente (tenure) y los cargos mensuales (MonthlyCharges).
+
+* Rendimiento de Modelos: Se entrenaron dos modelos con resultados distintos:
+  - La Regresión Logística demostró ser un modelo estable y con excelente capacidad para identificar a los clientes que cancelan (alto Recall).
+  - El Random Forest mostró una alta precisión pero con tendencia al sobreajuste (overfitting), lo que indica la necesidad de optimizar sus hiperparámetros en futuras iteraciones.
+
+* Conclusión Estratégica: La cancelación de clientes es un fenómeno predecible. Los modelos desarrollados pueden ser utilizados para segmentar a los clientes en riesgo y aplicar estrategias de retención focalizadas, como ofrecer contratos a largo plazo o programas de lealtad.
+
+# ✍️ Autor
+Juan Guilarte
