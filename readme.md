@@ -5,16 +5,16 @@
 El objetivo principal es construir modelos de clasificación capaces de identificar a los clientes con mayor probabilidad de cancelar sus servicios. Esto permite a la empresa pasar de una estrategia reactiva a una proactiva, diseñando campañas de retención dirigidas y personalizadas para reducir la tasa de cancelación y maximizar el valor de vida del cliente.
 
 ## 🛠️ Tecnologías y Herramientas Utilizadas
-* Lenguaje: Python 3
-* Manipulación de Datos: Pandas, NumPy
-* Visualización de Datos: Matplotlib, Seaborn
-* Modelado y Preprocesamiento: Scikit-learn, Imbalanced-learn
-* Entorno de Desarrollo: Google Colab
+- Lenguaje: Python 3
+- Manipulación de Datos: Pandas, NumPy
+- Visualización de Datos: Matplotlib, Seaborn
+- Modelado y Preprocesamiento: Scikit-learn, Imbalanced-learn
+- Entorno de Desarrollo: Google Colab
 
 ## 📂 Estructura del Proyecto
 Todo el flujo de trabajo, desde la carga de datos hasta el informe final, está contenido en el notebook TelecomX-Parte2.ipynb. El proyecto se organiza en las siguientes secciones dentro del notebook:
 
-* Preparación de los datos: Carga, limpieza, corrección de tipos de datos, codificación de variables categóricas (one-hot encoding) y estandarización.
+* Preparación de los datos: Carga de datos anteriores, limpieza, corrección de tipos de datos, codificación de variables categóricas (one-hot encoding) y estandarización.
 * Correlación y Selección de Variables: Análisis visual y cuantitativo para identificar las variables más relacionadas con la cancelación.
 * Modelado Predictivo: Creación, entrenamiento y evaluación de dos modelos (Regresión Logística y Random Forest).
 * Interpretación y Conclusiones: Análisis de la importancia de las variables según cada modelo.
